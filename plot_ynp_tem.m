@@ -84,7 +84,7 @@ text(.15,-.25,'log_1_0(resistivity)')
 
 %scatter3(xs,y,ones(length(xs),1).*max(linD(:,4)),ones(length(xs),1).*10,'k')
 
-% set(findall(gcf,'-property','FontName'),'FontName','AvantGarde')
-% set(gcf,'PaperUnits','centimeters','PaperPosition',[0 0 30 8])
-% print -dtiff nn_skytem2.tiff -r300
-% close all
+set(findall(gcf,'-property','FontName'),'FontName','AvantGarde')
+set(gcf,'PaperUnits','centimeters','PaperPosition',[0 0 30 8])
+print -dtiff SkyTEM_BerylSpringNorth.tiff -r300
+close all
